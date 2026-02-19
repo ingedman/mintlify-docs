@@ -11,14 +11,14 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Home",
-        "pages": [
-          "welcome"
-        ]
-      },
-      {
         "tab": "Docs",
         "anchors": [
+          {
+            "anchor": "Home",
+            "pages": [
+              "welcome"
+            ]
+          },
           {
             "anchor": "🚀 Getting Started",
             "tabs": [
