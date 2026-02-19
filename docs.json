@@ -9,75 +9,72 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "icon": "book-open-cover",
-          "href": "https://mintlify.com/docs"
-        },
-        {
-          "anchor": "Blog",
-          "icon": "newspaper",
-          "href": "https://mintlify.com/blog"
-        }
-      ]
-    },
-    "anchors": [
+    "tabs": [
       {
-        "anchor": "🚀 Getting Started",
-        "tabs": [
-          {
-            "tab": "Quick Start (5 min)"
-          },
-          {
-            "tab": "Onboarding Wizard"
-          },
-          {
-            "tab": "Key Concepts"
-          }
+        "tab": "Home",
+        "pages": [
+          "welcome"
         ]
       },
       {
-        "anchor": " 📋 Features",
-        "tabs": [
+        "tab": "Docs",
+        "anchors": [
           {
-            "tab": "Hymn Library"
+            "anchor": "🚀 Getting Started",
+            "tabs": [
+              {
+                "tab": "Quick Start (5 min)"
+              },
+              {
+                "tab": "Onboarding Wizard"
+              },
+              {
+                "tab": "Key Concepts"
+              }
+            ]
           },
           {
-            "tab": "Service Programs"
+            "anchor": " 📋 Features",
+            "tabs": [
+              {
+                "tab": "Hymn Library"
+              },
+              {
+                "tab": "Service Programs"
+              },
+              {
+                "tab": "Team & Roster"
+              },
+              {
+                "tab": "Calendar"
+              },
+              {
+                "tab": "Presentation Mode"
+              },
+              {
+                "tab": "Reports"
+              },
+              {
+                "tab": "Notifications"
+              }
+            ]
           },
           {
-            "tab": "Team & Roster"
-          },
-          {
-            "tab": "Calendar"
-          },
-          {
-            "tab": "Presentation Mode"
-          },
-          {
-            "tab": "Reports"
-          },
-          {
-            "tab": "Notifications"
-          }
-        ]
-      },
-      {
-        "anchor": " 👥 For Your Role",
-        "tabs": [
-          {
-            "tab": "For Worship Leaders"
-          },
-          {
-            "tab": "For Administrators"
-          },
-          {
-            "tab": "For Pastors"
-          },
-          {
-            "tab": "For Volunteers"
+            "anchor": " 👥 For Your Role",
+            "tabs": [
+              {
+                "tab": "For Worship Leaders"
+              },
+              {
+                "tab": "For Administrators"
+              },
+              {
+                "tab": "For Pastors"
+              },
+              {
+                "tab": "For Volunteers"
+              }
+            ]
           }
         ]
       }
